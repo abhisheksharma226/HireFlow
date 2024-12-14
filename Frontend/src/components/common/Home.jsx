@@ -1,5 +1,5 @@
 import React from 'react'
-import StickyNavbar from "../core/home/Nav"
+import Navbar from "../core/home/Nav"
 import OutsourceInterviews from "../core/home/Mid"
 import CallToAction from "../core/home/Customer"
 import Testimonial from "../core/home/Review"
@@ -14,7 +14,7 @@ import Footer from "../core/home/Footer"
 function Home() {
     return (
         <>
-            <StickyNavbar />
+            <Navbar />
             <OutsourceInterviews />
             <CallToAction />
             <Testimonial />

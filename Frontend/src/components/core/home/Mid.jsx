@@ -5,7 +5,7 @@ const OutsourceInterviews = () => {
   const navigate = useNavigate();
 
   const handleRequestNow = () => {
-    navigate('/login'); // Navigate to the login page
+    navigate('/LoginOpt'); // Navigate to the login page
   };
 
   return (
